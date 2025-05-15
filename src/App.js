@@ -28,13 +28,13 @@ const App =(props)=> {
           <Route exact path='/science'element={<News setProgress = {setProgress}   key='science' country='in' language='hi' category='science'/>}/>
            <Route exact path='/technology' element={<News setProgress = {setProgress}   key='technology'  country='in' language='hi' category='technology'/>}/>
           <Route exact path='/world'element={<News setProgress = {setProgress}   key='world' country='in' language='hi' category='world'/>}/>
-          <Route exact path='/eduation'  element={<News setProgress = {setProgress}   key='education'  country='in' language='hi' category='education'/>}/>
+          <Route exact path='/education'  element={<News setProgress = {setProgress}   key='education'  country='in' language='hi' category='education'/>}/>
           <Route exact path='/food'element={<News setProgress = {setProgress}   key='food'  country='in' language='hi' category='food'/>}/>
-            <Route exact path='/lifestyle' element={<News setProgress = {setProgress}   key='lifestyle'  country='in' language='hi' category='lifestyle'/>}/>
+          <Route exact path='/lifestyle' element={<News setProgress = {setProgress}   key='lifestyle'  country='in' language='hi' category='lifestyle'/>}/>
           <Route exact path='/crime'element={<News setProgress = {setProgress}   key='crime' country='in' language='hi' category='crime'/>}/>
           <Route exact path='/domestic'element={<News setProgress = {setProgress}   key='domestic' country='in' language='hi' category='domestic'/>}/>
           <Route exact path='/enviroment'element={<News setProgress = {setProgress}   key='enviroment'  country='in' language='hi' category='enviroment'/>}/>
-          <Route exact path='/toursim'element={<News setProgress = {setProgress}   key='enviroment' country='in' language='hi' category='enviroment'/>}/>
+          <Route exact path='/tourism'element={<News setProgress = {setProgress}   key='tourism' country='in' language='hi' category='tourism'/>}/>
            <Route exact path='/sports' element={<News setProgress = {setProgress}   key='sports'  country='in' language='hi' category='sports'/>}/>
           <Route exact path='/other'element={<News setProgress = {setProgress}   key='other' country='in' language='hi' category='other'/>}/>
         </Routes>
